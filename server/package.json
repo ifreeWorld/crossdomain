@@ -1,0 +1,19 @@
+{
+  "name": "crossdomain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "http": "0.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "node server.js"
+  },
+  "author": "wzl",
+  "license": "ISC"
+}
