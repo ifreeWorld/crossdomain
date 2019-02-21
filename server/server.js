@@ -44,8 +44,15 @@ app.get('/crossdomain', function (req, res) {
     res.end();
 });
 
+app.get('/test', function (req, res) {
+  console.log("server accept: ", req.query.inputText)
+  var result = 'result' + req.query.inputText
+  res.send(result);
+  res.end();
+})
+
 //配置服务端口
-var server = app.listen(3000, function () {
+var server = app.listen(9002, function () {
 
     var host = server.address().address;
 
